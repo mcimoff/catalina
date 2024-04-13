@@ -353,8 +353,17 @@ section{
     .cv{
         image-rendering: auto;
         image-resolution: 10;
-        width: 300px;
-        height: 500px;
+        width: 320px;
+        height: 700px;
+        
     }
     
+    
+    .contacto-div{
+    font-size: 25px;
+    font-weight: 400px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-top: 300px;
+    }
 }
