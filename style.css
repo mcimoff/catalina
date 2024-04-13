@@ -296,14 +296,25 @@ section{
 
     }
 
+    
+    .logo{
+         font-size: 25px;
+    }
+
     .hero-img img{
         margin: 0;
+        
     }
 
     .hero{
         height: 100%;
         gap: 1rem;
         grid-template-columns: 1fr;
+    }
+
+    .hero-img img:hover{
+        width: 350px;
+        opacity: 0.6;
     }
 
     .navlist{
@@ -330,7 +341,20 @@ section{
         right: 0;
     }
 
-    
+    /*CV*/
 
+    .cv-div{
+        font-size: 40px;
+        font-weight: 300px;
+    }
+
+    /*Contacto*/
+    
+    .cv{
+        image-rendering: auto;
+        image-resolution: 10;
+        width: 300px;
+        height: 500px;
+    }
     
 }
