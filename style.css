@@ -10,7 +10,7 @@
     font-family: 'Iconsolata', monospace;
     list-style: none; /*Quitar los puntos y decoración de las líneas*/
     text-decoration: none; /*Esto quita el subrayado de los enlaces*/
-    color: rgb(255, 189, 244);
+    color: white;
 
 }
 
@@ -37,6 +37,10 @@ header{
     font-size: 30px;
     font-weight: 800; /*Este es el grueso de las letras*/
 }
+
+
+
+
 
 .navlist{
     display: flex; /*Esto sirve para que los elementos de la lista UL se pongan en línea*/
@@ -78,7 +82,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75% ); /*fondo de color gradiente*/
+    background: rgba(9, 2, 61, 0.696); /*fondo de color gradiente*/
     position: relative; /*Para que sea relativo al contenedor (Nos permite usar top, bottom, left y right)*/
     display: grid; /*Para que el hero se puede dividir en dos columnas*/
     grid-template-columns: 1fr 1fr; /*Las dos columnas*/
@@ -203,7 +207,7 @@ section{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75% ); /*fondo de color gradiente*/
+    background:  rgba(9, 2, 61, 0.696); /*fondo de color gradiente*/
     font-size: 40px;
     font-weight: 400px;
     margin-bottom: 25px;
@@ -212,8 +216,8 @@ section{
 }
 
 .contacto-mail{
-    border: 2px solid rgb(231, 136, 246);
-    background-color: cadetblue;
+    border: 2px solid rgb(228, 156, 239);
+    background-color: rgb(30, 100, 102);
     border-radius: 2%;
     transition: all ,3s ease;
 }
@@ -229,7 +233,7 @@ section{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75% ); /*fondo de color gradiente*/
+    background:  rgba(9, 2, 61, 0.696); /*fondo de color gradiente*/
     font-size: 70px;
     font-weight: 400px;
     margin-bottom: 25px;
